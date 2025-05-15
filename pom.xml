@@ -453,15 +453,6 @@
                             <configLocation>addressbook-build/checkstyle.xml</configLocation>
                         </configuration>
                     </plugin>
-			<build>
-  			<plugins>
-   			 <plugin>
-     			 <groupId>org.apache.maven.plugins</groupId>
-     			 <artifactId>maven-war-plugin</artifactId>
-     			 <version>3.4.0</version> <!-- Use latest compatible version -->
-    			</plugin>
-  			</plugins>
-			</build>
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>findbugs-maven-plugin</artifactId>
