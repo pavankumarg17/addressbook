@@ -401,15 +401,6 @@
                             </execution>
                         </executions>
                     </plugin>
-			  <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>3.3.2</version>
-    <configuration>
-      <webXml>WebContent\WEB-INF\web.xml</webXml>
-      <encoding>UTF-8</encoding>
-    </configuration>
-  </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-site-plugin</artifactId>
